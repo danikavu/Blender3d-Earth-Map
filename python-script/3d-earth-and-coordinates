@@ -13,6 +13,7 @@ DATA_PATH = r'YOUR_PATH_TO\coordiante_data.gzip'    # Substitute with your local
 def latlonger(lat_deg, lon_deg):
     """
         Converts lat/lon coordinates to xyz for 3d plotting
+		Credit to > https://blender.stackexchange.com/questions/36837/convert-csv-latitude-longtitude-to-blender-coordinates/36843#36843
     """
     lat = radians(lat_deg)
     lon = radians(lon_deg)

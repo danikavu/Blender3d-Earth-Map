@@ -26,7 +26,7 @@ Positional data of some sort (latitude and longitude in decimal format)
 4 - Paste the code from 3d-earth-and-coordinates.py insde the text editor.
 
 Example of what you should see.
-![Image 4](./pics/BLENDER_SCRIPTING.png)
+![Image 4](./pics/BLENDER_SCRIPTING.PNG)
 
 5 - Replace the fields in these 3 variables. 
 
