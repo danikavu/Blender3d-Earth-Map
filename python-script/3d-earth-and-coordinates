@@ -78,7 +78,7 @@ ob.data.materials.append(material)
 coordinate_data = pd.read_parquet(DATA_PATH)
 
 for i, r in coordinate_data.iterrows():
-    # Convert coordinates
+    # Convert coordinates. Switch column names if needed.
     c = latlonger(r['LAT'], r['LON'])
     # Add sphere mesh with xyz
     bpy.ops.mesh.primitive_ico_sphere_add(radius=0.2, location=(c[0], c[1], 100+c[2]))

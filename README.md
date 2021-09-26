@@ -12,7 +12,11 @@ This code snippet makes a 3d sphere of Earth and plots positional data on top, u
 ### Requirements
 
 Blender 3d (Python inculded in software)
-Earth Images from [PlanetPixel](http://planetpixelemporium.com/earth8081.html) (8081_earthmap4k.jpg, 8081_earthbump4k.jpg where used in this example)
+
+Earth Images from [PlanetPixel](http://planetpixelemporium.com/earth8081.html) 
+
+(8081_earthmap4k.jpg, 8081_earthbump4k.jpg where used in this example)
+
 Positional data of some sort (latitude and longitude in decimal format)
 
 ### Guide
@@ -28,7 +32,7 @@ Positional data of some sort (latitude and longitude in decimal format)
 Example of what you should see.
 ![Image 4](./pics/BLENDER_SCRIPTING.PNG)
 
-5 - Replace the fields in these 3 variables. 
+5 - Replace the paths in these 3 variables. 
 
 	EARTH_IMAGE = "D:\\EARTH_MAPS\\8081_earthmap4k.jpg" # Substitute with your local path
 	EARTH_BUMP = "D:\\EARTH_MAPS\\8081_earthbump4k.jpg" # Substitute with your local path
@@ -41,6 +45,6 @@ After result is set you can go back to the 'Modeling' Panel, select the Camera V
 ### Additional
 
 Cycles render engine was used for the images in this repo
-
+Positional vessel data from [MarineTraffic](https://www.marinetraffic.com/)
 
 
