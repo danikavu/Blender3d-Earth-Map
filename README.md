@@ -11,7 +11,7 @@ This code snippet makes a 3d sphere of Earth and plots positional data on top, u
 
 ### Requirements
 
-Blender 3d (Python inculded in software)
+Blender 3d (Python included in software)
 
 Earth Images from [PlanetPixel](http://planetpixelemporium.com/earth8081.html) 
 
@@ -27,7 +27,7 @@ Positional data of some sort (latitude and longitude in decimal format)
 
 3 - Select 'Text'/New
 	
-4 - Paste the code from 3d-earth-and-coordinates.py insde the text editor.
+4 - Paste the code from 3d-earth-and-coordinates.py inside the text editor.
 
 Example of what you should see.
 ![Image 4](./pics/BLENDER_SCRIPTING.PNG)
